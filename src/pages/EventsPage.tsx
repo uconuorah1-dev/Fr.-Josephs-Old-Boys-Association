@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'motion/react';
-import { Calendar, MapPin, Loader2 } from 'lucide-react';
+import { Calendar, Loader2 } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 
 export default function EventsPage() {
